@@ -1,0 +1,10 @@
+início { //TC/5 = (TF - 32)/9, Onde TC = Temp em Celcius e TF = Temp em Farenheit
+    real: tf;
+    real: tc;
+    
+    leia("Insira temperatura em Farenheit: ", tf);
+
+    tc = ((tf - 32) / 9) * 5; // isola a TC e passa o 5 multiplicando do outro lado
+         
+    escreva("A temperatura em Celcius é: " + tc + "C");
+}
