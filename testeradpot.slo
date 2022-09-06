@@ -1,0 +1,10 @@
+início { //ponto indica que voce quer um retorno float
+    real: r;
+    real: r2;
+    
+    r = rad(3.0); // rad trabalha com inteiros ou reais, volta numero inteiro n said
+    escreva(r);
+    
+    r2 = pot(2.2, 5); // numero real, volta em real, inteiro volts em inteiro
+    escreva(r2);
+}
