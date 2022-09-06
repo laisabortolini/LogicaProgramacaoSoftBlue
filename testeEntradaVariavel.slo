@@ -1,0 +1,20 @@
+início {
+    caractere: texto;
+    inteiro: numeroInteiro;
+    real: numeroFracionado;
+    
+    //teste entrada variavel caractere
+    leia("Digite texto: ", texto);
+    //2 parâmetros: qual é a mensagem que aparecerá na caixa de texto e onde a entrada sera armazenada
+    
+    //teste entrada variavel inteiro
+    leia("Digite aqui um número inteiro: ", numeroInteiro);
+   
+    //teste entrasda variavel real
+    leia("Digite aqui um número decimal: ", numeroFracionado);
+    
+    caractere: info;
+    info = texto + ", esta é uma variável inteira: " + numeroInteiro + ", esta é uma variável real: " + numeroFracionado;
+    
+    escreva(info);
+}
