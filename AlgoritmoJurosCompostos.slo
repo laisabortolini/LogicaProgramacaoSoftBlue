@@ -1,0 +1,14 @@
+início { //FV = PV*(1+i)^n - Onde FV=future value, PV=valor presente, i=taxa de juros em porcentagem, n = prazo em meses para o pagamento
+    real: fv;
+    real: pv;
+    real: i;
+    real: n;
+    
+    leia("Insira o valor atual: ", pv);
+    leia("Insira a taxa: ", i);
+    leia("Insira o prazo: ", n);
+   
+    fv = pv * pot(1 + i/100, n); //pot = potencia (base, valor a ser elevado
+       
+    escreva("FV =  " + fv);
+}
